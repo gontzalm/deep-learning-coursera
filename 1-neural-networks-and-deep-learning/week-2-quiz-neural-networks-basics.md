@@ -31,8 +31,10 @@ channels red, green and blue. How do you reshape this into a column vector?
   
 4. Consider the two following random arrays "a" and "b":
 
-    ``` a = np.random.randn(2, 3) # a.shape = (2, 3) b = np.random.randn(2, 1) #
-    b.shape = (2, 1) c = a + b ```
+    ```
+    a = np.random.randn(2, 3) # a.shape = (2, 3) b = np.random.randn(2, 1) #
+    b.shape = (2, 1) c = a + b 
+    ```
 
     What will be the shape of "c"?
 
