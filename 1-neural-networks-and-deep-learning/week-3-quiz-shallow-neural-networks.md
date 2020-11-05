@@ -17,23 +17,23 @@
 for hidden units because the mean of its output is closer to zero, and so it
 centers the data better for the next layer.
 
-   - [x] True.
-   - [ ] False.
+    - [x] True.
+    - [ ] False.
 
 3. Which of these is a correct vectorized implementation of forward propagation
 for layer *l*, where *1<= l<= L*?
 
-   - *Z^[l] = W^[l]A^[l-1] + b^[l]*
-   - *A^[l] = g^[l]\(Z^[l])*
+    - *Z^[l] = W^[l]A^[l-1] + b^[l]*
+    - *A^[l] = g^[l]\(Z^[l])*
 
 4. You are building a binary classifier for recognizing cucumbers (y=1) vs.
 watermelons (y=0). Which one of these activation functions would you
 recommend using for the output layer?
 
-   - [ ] ReLU.
-   - [ ] Leaky ReLU.
-   - [x] sigmoid.
-   - [ ] tanh.
+    - [ ] ReLU.
+    - [ ] Leaky ReLU.
+    - [x] sigmoid.
+    - [ ] tanh.
 
 5. Consider the following code:
 
@@ -73,8 +73,8 @@ all to zeros, because if you initialize all to zeros, then logistic
 regression will fail to learn a useful decision boundary because it will fail
 to "break symmetry".
 
-   - [ ] True.
-   - [x] False.
+    - [ ] True.
+    - [x] False.
 
 8. You have built a network using the tanh activation for all the hidden units.
 You initialize the weights to relative large values, using
@@ -98,9 +98,9 @@ You initialize the weights to relative large values, using
 
 9. Consider the following 1 hidden layer neural network:
 
-![nn](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/svogd3rcEeeA3RJRlG3Uqg_76207ca9fa3c209fbf43892870e5338f_1layer.png?expiry=1604707200000&hmac=eC41lh-IZBbAop67OSzWgyEVHTn6nprVux6dKUJqw8w)
+    ![nn](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/svogd3rcEeeA3RJRlG3Uqg_76207ca9fa3c209fbf43892870e5338f_1layer.png?expiry=1604707200000&hmac=eC41lh-IZBbAop67OSzWgyEVHTn6nprVux6dKUJqw8w)
 
-Which of the following statements are true?
+    Which of the following statements are true?
 
     - [ ] W^[1] will have shape (2, 4).
     - [x] b^[1] will have shape (4, 1).
