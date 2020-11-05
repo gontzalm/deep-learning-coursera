@@ -83,7 +83,9 @@ following random arrays "a" and "b":
 9. Consider the following code:
 
     ```python3
-    a = np.random.randn(3, 3) b = np.random.randn(3, 1) c = a * b
+    a = np.random.randn(3, 3)
+    b = np.random.randn(3, 1)
+    c = a * b
     ```
   
     What will be c?
