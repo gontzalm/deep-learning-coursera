@@ -95,7 +95,8 @@ following random arrays "a" and "b":
 
     ![computation-graph](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CLczrXpHEeeA3RJRlG3Uqg_3c66355aff0ae7db9e27206f188267f0_Screen-Shot-2017-08-05-at-6.30.51-PM.png?expiry=1604707200000&hmac=zKbdyU9q0WX4ElUslFaL8pfkXk7SRQqzLaKnWobWqZg)
 
-    ``` J = u + v - w = a * b + a * c - (b + c) = a * (b + c) - (b + c) = (a - 1)
+    ```python3
+    J = u + v - w = a * b + a * c - (b + c) = a * (b + c) - (b + c) = (a - 1)
     * (b + c)
     ```
 
