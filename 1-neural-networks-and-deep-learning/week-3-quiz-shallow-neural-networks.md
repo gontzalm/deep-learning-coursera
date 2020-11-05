@@ -2,15 +2,15 @@
 
 1. Which of the following are true?
 
-    - [x] a^[2] denotes the activation vector of the 2nd layer.
-    - [x] X is a matrix in which each column is one training example.
-    - [] a^[2]\_4 is the activation output of the 2nd layer for the 4th training
+    - [x] *a^[2]* denotes the activation vector of the 2nd layer.
+    - [x] *X* is a matrix in which each column is one training example.
+    - [ ] *a^[2]\_4* is the activation output of the 2nd layer for the 4th training
       example.
-    - [] X is a matrix in which each row is one training example.
-    - [x] a^([2](12)) denotes the activation vector of the 2nd layer for the
+    - [ ] *X* is a matrix in which each row is one training example.
+    - [x] *a^([2]\(12))* denotes the activation vector of the 2nd layer for the
       12th training example.
-    - [x] a^[2]\_4 is the activation output by the 4th neuron of the 2nd layer.
-    - [] a^([2](12)) denotes activation the activation of the 12th layer on the
+    - [x] *a^[2]\_4* is the activation output by the 4th neuron of the 2nd layer.
+    - [ ] *a^([2](12))* denotes activation the activation of the 12th layer on the
       2nd training example.
 
 2. The *tanh* activation usually works better than sigmoid activation function
@@ -18,7 +18,7 @@ for hidden units because the mean of its output is closer to zero, and so it
 centers the data better for the next layer.
 
    - [x] True.
-   - [] False.
+   - [ ] False.
 
 3. Which of these is a correct vectorized implementation of forward propagation
 for layer *l*, where *1<= l<= L*?
