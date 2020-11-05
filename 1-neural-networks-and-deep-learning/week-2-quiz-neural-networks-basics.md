@@ -31,9 +31,9 @@ channels red, green and blue. How do you reshape this into a column vector?
   
 4. Consider the two following random arrays "a" and "b":
 
-    ```
+    ```python3
     a = np.random.randn(2, 3) # a.shape = (2, 3) b = np.random.randn(2, 1) #
-    b.shape = (2, 1) c = a + b 
+    b.shape = (2, 1) c = a + b
     ```
 
     What will be the shape of "c"?
@@ -55,43 +55,48 @@ channels red, green and blue. How do you reshape this into a column vector?
 6. Suppose you have n_x input features per example. Recall that X=[x^(1),
 x^(2)...x^(m)]. What is the dimension of X?
 
-  `(n_x, m)`
+    `(n_x, m)`
 
 7. Recall that `np.dot(a,b)` performs a matrix multiplication on a and b,
-whereas `a*b` performs an element-wise multiplication.
+whereas `a*b` performs an element-wise multiplication. Consider the two
+following random arrays "a" and "b":
 
-  Consider the two following random arrays "a" and "b":
-
-  ``` a = np.random.randn(12288, 150) # a.shape = (12288, 150) b =
-  np.random.randn(150, 45) # b.shape = (150, 45) c = np.dot(a, b) ```
+    ```python3
+    a = np.random.randn(12288, 150) # a.shape = (12288, 150) b =
+    np.random.randn(150, 45) # b.shape = (150, 45) c = np.dot(a, b)
+    ```
   
-  What is the shape of c?
+    What is the shape of c?
   
-  `c.shape = (12288, 45)`, this is a simple matrix multiplication example.
+    `c.shape = (12288, 45)`, this is a simple matrix multiplication example.
   
 8. Consider the following code snippet:
 
-  ``` # a.shape = (3,4) # b.shape = (4,1) for i in range(3): for j in range(4):
-  c[i][j] = a[i][j] + b[j] ```
-  
-  How do you vectorize this?
+    ``` # a.shape = (3,4) # b.shape = (4,1) for i in range(3): for j in range(4):
+    c[i][j] = a[i][j] + b[j]
+    ```
 
-  `c = a + b.T`
+    How do you vectorize this?
+
+    `c = a + b.T`
 
 9. Consider the following code:
 
-  ``` a = np.random.randn(3, 3) b = np.random.randn(3, 1) c = a * b ```
+    ```python3
+    a = np.random.randn(3, 3) b = np.random.randn(3, 1) c = a * b
+    ```
   
-  What will be c?
-  
-  This will invoke broadcasting, so b is copied three times to become (3,3), and
-  ∗ is an element-wise product so `c.shape = (3, 3)`.
+    What will be c?
+
+    This will invoke broadcasting, so b is copied three times to become (3,3), and
+    ∗ is an element-wise product so `c.shape = (3, 3)`.
   
 10. Consider the following computation graph.
 
-  ![computation-graph](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CLczrXpHEeeA3RJRlG3Uqg_3c66355aff0ae7db9e27206f188267f0_Screen-Shot-2017-08-05-at-6.30.51-PM.png?expiry=1604707200000&hmac=zKbdyU9q0WX4ElUslFaL8pfkXk7SRQqzLaKnWobWqZg)
+    ![computation-graph](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CLczrXpHEeeA3RJRlG3Uqg_3c66355aff0ae7db9e27206f188267f0_Screen-Shot-2017-08-05-at-6.30.51-PM.png?expiry=1604707200000&hmac=zKbdyU9q0WX4ElUslFaL8pfkXk7SRQqzLaKnWobWqZg)
 
-  ``` J = u + v - w = a * b + a * c - (b + c) = a * (b + c) - (b + c) = (a - 1)
-  * (b + c) ```
+    ``` J = u + v - w = a * b + a * c - (b + c) = a * (b + c) - (b + c) = (a - 1)
+    * (b + c)
+    ```
 
-  Answer: `(a - 1) * (b + c)`
+    Answer: `(a - 1) * (b + c)`
