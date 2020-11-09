@@ -3,18 +3,18 @@
 1. What does a neuron compute?
 
     - [ ] A neuron computes an activation function followed by a linear function
-      (z = Wx + b)
+      (*z = Wx + b*)
 
-    - [x] A neuron computes a linear function (z = Wx + b) followed by an
+    - [x] A neuron computes a linear function (*z = Wx + b*) followed by an
       activation function
 
-    - [ ] A neuron computes a function g that scales the input x linearly (Wx +
-      b)
+    - [ ] A neuron computes a function g that scales the input x linearly (*Wx +
+      b*)
 
     - [ ] A neuron computes the mean of all features before applying the output
       to an activation function
 
-    Note: The output of a neuron is a = g(Wx + b) where g is the activation
+    Note: The output of a neuron is *a = g(Wx + b)* where *g* is the activation
     function (sigmoid, tanh, ReLU, ...).
   
 2. Which of these is the "Logistic Loss"?
@@ -95,7 +95,7 @@ following random arrays "a" and "b":
   
 10. Consider the following computation graph.
 
-    ![computation-graph](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/CLczrXpHEeeA3RJRlG3Uqg_3c66355aff0ae7db9e27206f188267f0_Screen-Shot-2017-08-05-at-6.30.51-PM.png?expiry=1604707200000&hmac=zKbdyU9q0WX4ElUslFaL8pfkXk7SRQqzLaKnWobWqZg)
+    ![computation-graph](computation-graph.png)
 
     What is the output *J*?
 

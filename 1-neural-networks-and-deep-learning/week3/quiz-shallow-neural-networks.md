@@ -98,7 +98,7 @@ You initialize the weights to relative large values, using
 
 9. Consider the following 1 hidden layer neural network:
 
-    ![nn](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/svogd3rcEeeA3RJRlG3Uqg_76207ca9fa3c209fbf43892870e5338f_1layer.png?expiry=1604707200000&hmac=eC41lh-IZBbAop67OSzWgyEVHTn6nprVux6dKUJqw8w)
+    ![nn](net.png)
 
     Which of the following statements are true?
 

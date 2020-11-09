@@ -49,7 +49,7 @@ the parameters for the model?
 
 6. Consider the following neural network.
 
-    ![neural-net](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/cwmw1nrfEeeJIwrF5BVsIg_e9a22da9e380c0350d2dfd47dcf34503_Screen-Shot-2017-08-06-at-12.42.46-PM.png?expiry=1605052800000&hmac=UU0A564jihQJ_WSZOijQIfyXc3HMnfNB9osEdKwU0ec)
+    ![neural-net](net1.png)
 
     How many layers does this network have?
 
@@ -75,7 +75,7 @@ function for layer *l*, since the gradient depends on it.
 
 9. Consider the following 2 hidden layer neural network.
 
-    ![neural-net](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/8sF12nrfEeeumw4MySoK5g_36df26a0659f76c6566ff4f3706e6ad2_Screen-Shot-2017-08-05-at-12.50.32-PM.png?expiry=1605052800000&hmac=p4TrHrkiEWlcWgwUSDkC1SsRc9ZQyesUlEWrrgznKoQ)
+    ![neural-net](net2.png)
 
     Which of the following statemets are true?
 
