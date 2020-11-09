@@ -98,7 +98,7 @@ You initialize the weights to relative large values, using
 
 9. Consider the following 1 hidden layer neural network:
 
-    ![nn](net.png)
+    ![nn](images/net.png)
 
     Which of the following statements are true?
 
@@ -114,4 +114,4 @@ You initialize the weights to relative large values, using
 10. In the same network as the previous question, what are the dimensions of
 *Z^[1]* and *A^[1]*?
 
-    - *Z^[1]* and *A^[1]* are (4, 1).
+    *Z^[1]* and *A^[1]* are (4, 1).

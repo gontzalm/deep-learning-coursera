@@ -49,7 +49,7 @@ the parameters for the model?
 
 6. Consider the following neural network.
 
-    ![neural-net](net1.png)
+    ![neural-net](images/net1.png)
 
     How many layers does this network have?
 
@@ -75,7 +75,7 @@ function for layer *l*, since the gradient depends on it.
 
 9. Consider the following 2 hidden layer neural network.
 
-    ![neural-net](net2.png)
+    ![neural-net](images/net2.png)
 
     Which of the following statemets are true?
 

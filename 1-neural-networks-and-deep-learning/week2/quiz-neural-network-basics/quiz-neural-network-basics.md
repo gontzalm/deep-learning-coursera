@@ -95,7 +95,7 @@ following random arrays "a" and "b":
   
 10. Consider the following computation graph.
 
-    ![computation-graph](computation-graph.png)
+    ![computation-graph](images/computation-graph.png)
 
     What is the output *J*?
 
