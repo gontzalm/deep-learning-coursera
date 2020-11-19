@@ -51,10 +51,10 @@ classifier?
 8. Increasing the parameter *keep_prob* from (say) 0.5 to 0.6 will likely cause
 the following:
 
-    - [x] Increasing the regularization effect.
-    - [ ] Reducing the regularization effect.
-    - [x] Causing the neural network to end up with a higher training set error.
-    - [ ] Causing the neural network to end up with a lower training set error.
+    - [ ] Increasing the regularization effect.
+    - [x] Reducing the regularization effect.
+    - [ ] Causing the neural network to end up with a higher training set error.
+    - [x] Causing the neural network to end up with a lower training set error.
 
 9. Which of these techniques are useful for reducing variance?
 
