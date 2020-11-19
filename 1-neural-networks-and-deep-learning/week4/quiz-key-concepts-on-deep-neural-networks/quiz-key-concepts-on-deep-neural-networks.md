@@ -85,7 +85,7 @@ function for layer *l*, since the gradient depends on it.
     - [ ] *b^[1]* will have shape (4, 1).
     - [x] *W^[2]* will have shape (3, 4).
     - [ ] *b^[2]* will have shape (1, 1).
-    - [x] *W^[2]* will have shape (3, 1).
+    - [ ] *W^[2]* will have shape (3, 1).
     - [x] *b^[2]* will have shape (3, 1).
     - [ ] *W^[3]* will have shape (3, 1).
     - [x] *b^[3]* will have shape (1, 1).
