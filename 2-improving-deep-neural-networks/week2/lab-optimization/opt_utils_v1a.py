@@ -73,8 +73,8 @@ def initialize_parameters(layer_dims):
         parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1])*  np.sqrt(2 / layer_dims[l-1])
         parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
         
-        assert(parameters['W' + str(l)].shape == layer_dims[l], layer_dims[l-1])
-        assert(parameters['W' + str(l)].shape == layer_dims[l], 1)
+        assert parameters['W' + str(l)].shape[0] == layer_dims[l], layer_dims[l-1]
+        assert parameters['W' + str(l)].shape[0] == layer_dims[l], 1
         
     return parameters
 
@@ -89,14 +89,18 @@ def compute_cost(a3, Y):
     Y -- "true" labels vector, same shape as a3
     
     Returns:
-    cost - value of the cost function
+    cost - value of the cost function without dividing by number of training examples
+    
+    Note: 
+    This is used with mini-batches, 
+    so we'll first accumulate costs over an entire epoch 
+    and then divide by the m training examples
     """
-    m = Y.shape[1]
     
     logprobs = np.multiply(-np.log(a3),Y) + np.multiply(-np.log(1 - a3), 1 - Y)
-    cost = 1./m * np.sum(logprobs)
+    cost_total =  np.sum(logprobs)
     
-    return cost
+    return cost_total
 
 def forward_propagation(X, parameters):
     """
