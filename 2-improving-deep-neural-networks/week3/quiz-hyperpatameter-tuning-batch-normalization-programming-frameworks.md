@@ -1,5 +1,4 @@
-## Week 3 Quiz - Hyperparameter Tuning, Batch Normalization, Programming
-Frameworks
+## Week 3 Quiz - Hyperparameter Tuning, Batch Normalization, Programming Frameworks
 
 1. If searching among a large number of hyperparameters, ypu should try values
 in a grid rather than random values, so that you can carry out the search more
