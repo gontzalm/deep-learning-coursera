@@ -143,7 +143,7 @@ human-level performance. You find the following levels of accuracy:
 
     - 0.3 % (accuracy of expert #1)_.
 
-9, Which of the following statements do you agree with?
+9. Which of the following statements do you agree with?
 
     - A learning algorithm's performance can be better than human-level
       performance but it can never be better than Bayes error.
