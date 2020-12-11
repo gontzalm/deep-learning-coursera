@@ -120,6 +120,8 @@ object because:
       different. This is a bad idea because you're not aiming where you want to
       hit.
 
+### Human-level Performance and Bayes Error
+
 7. You train a system, and its errors are as follows:
     
     - Training set error: 4.0 %.
@@ -135,13 +137,13 @@ human-level performance. You find the following levels of accuracy:
 
     - Bird watching expert #1: 0.3 % error.
     - Bird watching expert #2: 0.5 % error.
-    - Normal person #1: 1._0 % error.
+    - Normal person #1: 1.0 % error.
     - Normal person #2: 1.2 % error.
 
     If your goal is to have a "human-level performance" be a proxy for Bayes
     error, how would you define "human-level performance"?
 
-    - 0.3 % (accuracy of expert #1)_.
+    - 0.3 % (accuracy of expert #1).
 
 9. Which of the following statements do you agree with?
 
@@ -196,6 +198,8 @@ following:
     - [x] It is now harder to measure avoidable bias, thus progress will be
       slower going forward.
 
+### Setting Up Your Goal
+
 13. It turns out Peacetopia has hired one of your competitors to build a system
 as well. You and your competitor both deliver systems with about the same
 running time and memory size. However, your system has higher accuracy! However,
@@ -234,6 +238,8 @@ tested on a new type of data.
       type of bird.
     - [ ] Add the 1,000 images into your dataset and reshuffle into a new
       train/dev/test split.
+
+### Big Dataset
 
 15. The City Council thinks having more cats in the city would help scare off
 birds. They are so happy with your work on the bird detector that they also hire
